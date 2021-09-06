@@ -1,0 +1,8 @@
+#Ignore Gradle wrapper folders in subdirectoreies
+*/**/gradle/
+
+##Ignore Gradle
+.gradle
+build/
+.idea/
+
