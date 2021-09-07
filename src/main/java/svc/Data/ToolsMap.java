@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
-This class will hold the data for all of the tool information
+This class will hold the data for all the tool information
 The key value will be the ToolCode and the value will be of type Tool
 This potentially could be moved to a Database
  */
@@ -49,16 +49,16 @@ public class ToolsMap {
         //Mapping for JackHammerR
         toolMap.put(ToolsCodes.JACKHAMMER_R_CODE,
                 Tool.builder().price(getJackHammerPrices())
-                        .type("Ridgid")
-                        .brand("Werner")
+                        .type("Jackhammer")
+                        .brand("Ridgid")
                         .code(ToolsCodes.JACKHAMMER_R_CODE) //May be redundant and could have a better way to implement
                         .build());
 
         //Mapping for JackHammerD
         toolMap.put(ToolsCodes.JACKHAMMER_D_CODE,
                 Tool.builder().price(getJackHammerPrices())
-                        .type("DeWalt")
-                        .brand("Werner")
+                        .type("Jackhammer")
+                        .brand("DeWalt")
                         .code(ToolsCodes.JACKHAMMER_D_CODE) //May be redundant and could have a better way to implement
                         .build());
 
